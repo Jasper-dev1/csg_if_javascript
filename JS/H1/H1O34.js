@@ -14,5 +14,8 @@ function setup() {
 
 function draw() {
   background('white');
-
+    var x = random(50,400);
+    var y = random(50,400);
+    diameter = random(25,75);
+    ellipse(x,y,diameter);
 }
